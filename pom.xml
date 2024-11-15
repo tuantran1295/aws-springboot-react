@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>HelloSpringBoot</name>
 	<description>Hello Spring Boot Application</description>
+	<packaging>war</packaging>
 	<url/>
 	<licenses>
 		<license/>
@@ -45,6 +46,12 @@
     		<groupId>org.springdoc</groupId>
     		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     		<version>2.3.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		
 		<!--
